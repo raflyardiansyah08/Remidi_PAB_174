@@ -1,0 +1,35 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.lock
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/local.properties
+android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Firebase secrets (jangan upload ke GitHub publik)
+**/google-services.json
+**/GoogleService-Info.plist
+lib/firebase_options.dart
